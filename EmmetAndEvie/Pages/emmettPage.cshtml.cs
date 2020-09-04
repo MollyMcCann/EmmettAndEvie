@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace EmmetAndEvie.Pages.Forms
+namespace EmmetAndEvie.Pages
 {
     public class emmettPageModel : PageModel
     {
