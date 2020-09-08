@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - EmmetAndEvie</title>
+    <title>@ViewData["Title"] - EmmettAndEvie</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -31,19 +31,20 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/eviePage">Evie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/photoGallery"></a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/photoGallery">Photo Gallery</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody() @*this is where index is inserted*@
         </main>
     </div>
-
+   
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2020 - EmmetAndEvie - <a asp-area="" asp-page="/Privacy">Privacy</a>
