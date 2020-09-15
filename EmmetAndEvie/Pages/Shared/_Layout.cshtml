@@ -10,8 +10,12 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <style>/* maybe I put this in the wrong place*/
+                .div { background-color: blueviolet;
+                }
+            </style>
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">EmmetAndEvie</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Emmett and Evie</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,13 +51,12 @@
             @RenderBody() @*this is where index is inserted*@
         </main>
     </div>
-   
+
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2020 - EmmetAndEvie - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
